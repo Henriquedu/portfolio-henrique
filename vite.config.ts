@@ -207,6 +207,7 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 
 export default defineConfig({
   plugins,
+  base: "/portfolio-henrique/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
